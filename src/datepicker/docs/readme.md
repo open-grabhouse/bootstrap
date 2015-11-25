@@ -21,7 +21,7 @@ The datepicker has 3 modes:
   An optional expression to disable visible options based on passing a date and current mode.
 
 * `datepicker-mode`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `day`)_ -
   Current mode of the datepicker _(day|month|year)_. Can be used to initialize the datepicker in a specific mode.
 
@@ -54,7 +54,7 @@ The datepicker has 3 modes:
   The initial date view when no model value is specified.
 
 * `max-date`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `null`)_ -
   Defines the maximum available date.
 
@@ -63,7 +63,7 @@ The datepicker has 3 modes:
   Sets an upper limit for mode.
 
 * `min-date`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `null`)_ -
   Defines the minimum available date.
 
@@ -72,7 +72,7 @@ The datepicker has 3 modes:
   Sets a lower limit for mode.
 
 * `ng-model`
-  <i class="glyphicon glyphicon-eye-open"></i> -
+  <i class="fa fa-eye-open"></i> -
   The date object. Needs to be a Javascript Date object.
 
 * `shortcut-propagation`
@@ -128,7 +128,7 @@ Options for the uib-datepicker must be passed as JSON using the `datepicker-opti
   Add the ability to override the template used on the component (inner uib-datepicker).  
 
 * `is-open`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `false`)_ -
   Whether or not to show the datepicker.
 

@@ -4,7 +4,7 @@ Rating directive that will take care of visualising a star rating bar.
 
 #### `<uib-rating>` ####
 
- * `ng-model` <i class="glyphicon glyphicon-eye-open"></i>
+ * `ng-model` <i class="fa fa-eye-open"></i>
  	:
  	The current rate.
 

@@ -9,23 +9,23 @@ Settings can be provided as attributes in the `<uib-pagination>` or globally con
  	:
  	`ng-change` can be used together with `ng-model` to call a function whenever the page changes.
 
- * `ng-model` <i class="glyphicon glyphicon-eye-open"></i>
+ * `ng-model` <i class="fa fa-eye-open"></i>
  	:
  	Current page number. First page is 1.
 
- * `ng-disabled` <i class="glyphicon glyphicon-eye-open"></i>
+ * `ng-disabled` <i class="fa fa-eye-open"></i>
   :
   Used to disable the pagination component
 
- * `total-items` <i class="glyphicon glyphicon-eye-open"></i>
+ * `total-items` <i class="fa fa-eye-open"></i>
  	:
  	Total number of items in all pages.
 
- * `items-per-page` <i class="glyphicon glyphicon-eye-open"></i>
+ * `items-per-page` <i class="fa fa-eye-open"></i>
  	_(Defaults: 10)_ :
  	Maximum number of items per page. A value less than one indicates all items on one page.
 
- * `max-size` <i class="glyphicon glyphicon-eye-open"></i>
+ * `max-size` <i class="fa fa-eye-open"></i>
  	_(Defaults: null)_ :
  	Limit number for pagination size.
 

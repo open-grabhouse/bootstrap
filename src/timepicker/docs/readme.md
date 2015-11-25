@@ -4,26 +4,26 @@ A lightweight & configurable timepicker directive.
 
 All settings can be provided as attributes in the `<uib-timepicker>` or globally configured through the `uibTimepickerConfig`.
 
- * `ng-model` <i class="glyphicon glyphicon-eye-open"></i>
+ * `ng-model` <i class="fa fa-eye-open"></i>
  	:
  	The Date object that provides the time state.
 
   * `template-url` (Defaults: `template/timepicker/timepicker.html`) :
     Add the ability to override the template used on the component.
 
- * `hour-step` <i class="glyphicon glyphicon-eye-open"></i>
+ * `hour-step` <i class="fa fa-eye-open"></i>
  	_(Defaults: 1)_ :
  	 Number of hours to increase or decrease when using a button.
 
- * `minute-step` <i class="glyphicon glyphicon-eye-open"></i>
+ * `minute-step` <i class="fa fa-eye-open"></i>
  	_(Defaults: 1)_ :
  	 Number of minutes to increase or decrease when using a button.
 
- * `second-step` <i class="glyphicon glyphicon-eye-open"></i>
+ * `second-step` <i class="fa fa-eye-open"></i>
     _(Defaults: 1)_ :
      Number of seconds to increase or decrease when using a button.
 
- * `show-meridian` <i class="glyphicon glyphicon-eye-open"></i>
+ * `show-meridian` <i class="fa fa-eye-open"></i>
  	_(Defaults: true)_ :
  	Whether to display 12H or 24H mode.
 

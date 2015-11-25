@@ -22,11 +22,11 @@ AngularJS version of the tabs directive.
  	:
  	Heading text or HTML markup.
 
- * `active` <i class="glyphicon glyphicon-eye-open"></i>
+ * `active` <i class="fa fa-eye-open"></i>
  	_(Defaults: false)_ :
  	Whether tab is currently selected.
 
- * `disable` <i class="glyphicon glyphicon-eye-open"></i>
+ * `disable` <i class="fa fa-eye-open"></i>
  	_(Defaults: false)_ :
  	Whether tab is clickable and can be activated.
  	Note that this was previously the `disabled` attribute, which is now deprecated.

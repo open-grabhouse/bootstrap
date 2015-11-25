@@ -22,8 +22,8 @@ describe('rating directive', function() {
     var stars = getStars();
     var state = [];
     for (var i = 0, n = stars.length; i < n; i++) {
-      state.push(stars.eq(i).hasClass(classOn || 'glyphicon-star') &&
-        !stars.eq(i).hasClass(classOff || 'glyphicon-star-empty'));
+      state.push(stars.eq(i).hasClass(classOn || 'fa-star') &&
+        !stars.eq(i).hasClass(classOff || 'fa-star-empty'));
     }
     return state;
   }
@@ -228,12 +228,17 @@ describe('rating directive', function() {
 
   describe('`rating-states`', function() {
     beforeEach(inject(function() {
-      $rootScope.states = [
-        {stateOn: 'sign', stateOff: 'circle'},
-        {stateOn: 'heart', stateOff: 'ban'},
-        {stateOn: 'heart'},
-        {stateOff: 'off'}
-      ];
+      $rootScope.states = [{
+        stateOn: 'sign',
+        stateOff: 'circle'
+      }, {
+        stateOn: 'heart',
+        stateOff: 'ban'
+      }, {
+        stateOn: 'heart'
+      }, {
+        stateOff: 'off'
+      }];
       element = $compile('<uib-rating ng-model="rate" rating-states="states"></uib-rating>')($rootScope);
       $rootScope.$digest();
     }));
@@ -302,14 +307,14 @@ describe('rating directive', function() {
       angular.extend(uibRatingConfig, originalConfig);
     }));
 
-   it('should return the default title for each star', function() {
+    it('should return the default title for each star', function() {
       expect(getTitles()).toEqual(['one', 'two', 'three', 'four', 'five', '6', '7', '8', '9', '10']);
     });
   });
 
   describe('shows custom titles ', function() {
     it('should return the custom title for each star', function() {
-      $rootScope.titles = [44,45,46];
+      $rootScope.titles = [44, 45, 46];
       element = $compile('<uib-rating ng-model="rate" titles="titles"></uib-rating>')($rootScope);
       $rootScope.$digest();
       expect(getTitles()).toEqual(['44', '45', '46', '4', '5']);
@@ -320,7 +325,7 @@ describe('rating directive', function() {
       $rootScope.$digest();
       expect(getTitles()).toEqual(['one', 'two', 'three', 'four', 'five']);
     });
-   it('should return the default title if the custom title is not an array', function() {
+    it('should return the default title if the custom title is not an array', function() {
       element = $compile('<uib-rating ng-model="rate" titles="test"></uib-rating>')($rootScope);
       $rootScope.$digest();
       expect(getTitles()).toEqual(['one', 'two', 'three', 'four', 'five']);

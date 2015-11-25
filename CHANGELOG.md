@@ -658,7 +658,7 @@ Revert breaking change in **dropdown** ([1a998c4](http://github.com/angular-ui/b
   - use interpolation for type attribute ([f0a129ad](http://github.com/angular-ui/bootstrap/commit/f0a129ad))  
   - add `alert-dismissable` class ([794954af](http://github.com/angular-ui/bootstrap/commit/794954af))  
 - **carousel:** 
-  - correct glyphicon ([3b6ab25b](http://github.com/angular-ui/bootstrap/commit/3b6ab25b))  
+  - correct fa ([3b6ab25b](http://github.com/angular-ui/bootstrap/commit/3b6ab25b))  
 - **datepicker:** 
   - remove unneeded date creation ([68cb2e5a](http://github.com/angular-ui/bootstrap/commit/68cb2e5a))  
   - `Today` button should not set time ([e1993491](http://github.com/angular-ui/bootstrap/commit/e1993491))  

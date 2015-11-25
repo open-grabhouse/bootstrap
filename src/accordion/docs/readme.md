@@ -15,12 +15,12 @@ The body of each accordion group is transcluded into the body of the collapsible
 ### uib-accordion-group settings
 
 * `is-disabled`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `false`)_ -
    Whether the accordion group is disabled or not.
 
 * `is-open`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `false`)_ -
   Whether accordion group is open or closed.
 

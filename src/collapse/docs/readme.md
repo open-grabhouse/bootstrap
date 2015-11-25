@@ -3,6 +3,6 @@
 ### uib-collapse settings
 
 * `uib-collapse`
-  <i class="glyphicon glyphicon-eye-open"></i>
+  <i class="fa fa-eye-open"></i>
   _(Default: `false`)_ -
   Whether the element should be collapsed or not.

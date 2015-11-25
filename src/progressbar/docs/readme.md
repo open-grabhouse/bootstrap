@@ -6,7 +6,7 @@ It supports multiple (stacked) bars into the same `<uib-progress>` element or a 
 
 #### `<uib-progressbar>` ####
 
- * `value` <i class="glyphicon glyphicon-eye-open"></i>
+ * `value` <i class="fa fa-eye-open"></i>
  	:
  	The current value of progress completed.
 

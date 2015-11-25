@@ -1,4 +1,4 @@
-angular.module('ui.bootstrap.demo').controller('RatingDemoCtrl', function ($scope) {
+angular.module('ui.bootstrap.demo').controller('RatingDemoCtrl', function($scope) {
   $scope.rate = 7;
   $scope.max = 10;
   $scope.isReadonly = false;
@@ -8,11 +8,18 @@ angular.module('ui.bootstrap.demo').controller('RatingDemoCtrl', function ($scop
     $scope.percent = 100 * (value / $scope.max);
   };
 
-  $scope.ratingStates = [
-    {stateOn: 'glyphicon-ok-sign', stateOff: 'glyphicon-ok-circle'},
-    {stateOn: 'glyphicon-star', stateOff: 'glyphicon-star-empty'},
-    {stateOn: 'glyphicon-heart', stateOff: 'glyphicon-ban-circle'},
-    {stateOn: 'glyphicon-heart'},
-    {stateOff: 'glyphicon-off'}
-  ];
+  $scope.ratingStates = [{
+    stateOn: 'fa-ok-sign',
+    stateOff: 'fa-ok-circle'
+  }, {
+    stateOn: 'fa-star',
+    stateOff: 'fa-star-empty'
+  }, {
+    stateOn: 'fa-heart',
+    stateOff: 'fa-ban-circle'
+  }, {
+    stateOn: 'fa-heart'
+  }, {
+    stateOff: 'fa-off'
+  }];
 });

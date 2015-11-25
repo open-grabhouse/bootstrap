@@ -13,21 +13,21 @@ This directive works with promises, meaning you can retrieve matches using the `
 
 The typeahead directives provide several attributes:
 
-* `ng-model` <i class="glyphicon glyphicon-eye-open"></i>
+* `ng-model` <i class="fa fa-eye-open"></i>
    :
    Assignable angular expression to data-bind to
 
-* `uib-typeahead` <i class="glyphicon glyphicon-eye-open"></i>
+* `uib-typeahead` <i class="fa fa-eye-open"></i>
    :
    Comprehension Angular expression (see [select directive](http://docs.angularjs.org/api/ng.directive:select))
 
-* `typeahead-append-to-body` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-append-to-body` <i class="fa fa-eye-open"></i>
    _(Defaults: false)_ : Should the typeahead popup be appended to $body instead of the parent element?
 
 * `typeahead-append-to`
    _(Defaults: null)_ : Should the typeahead popup be appended to an element instead of the parent element?
 
-* `typeahead-editable` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-editable` <i class="fa fa-eye-open"></i>
    _(Defaults: true)_ :
    Should it restrict model values to the ones selected from the popup only ?
 
@@ -35,19 +35,19 @@ The typeahead directives provide several attributes:
    _(Defaults: true)_ :
    Should the first match automatically be focused as you type?
 
-* `typeahead-input-formatter` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-input-formatter` <i class="fa fa-eye-open"></i>
    _(Defaults: undefined)_ :
    Format the ng-model result after selection
 
-* `typeahead-loading` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-loading` <i class="fa fa-eye-open"></i>
    _(Defaults: angular.noop)_ :
    Binding to a variable that indicates if matches are being retrieved asynchronously
 
-* `typeahead-min-length` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-min-length` <i class="fa fa-eye-open"></i>
    _(Defaults: 1)_ :
    Minimal no of characters that needs to be entered before typeahead kicks-in. Must be greater than or equal to 0.
 
-* `typeahead-no-results` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-no-results` <i class="fa fa-eye-open"></i>
    _(Defaults: angular.noop)_ :
    Binding to a variable that indicates if no matching results were found
 
@@ -59,7 +59,7 @@ The typeahead directives provide several attributes:
    _(Defaults: false)_ :
    Should it automatically select an item when there is one option that exactly matches the user input?
 
-* `typeahead-template-url` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-template-url` <i class="fa fa-eye-open"></i>
    _(Defaults: `uib/template/typeahead/typeahead-match.html`)_ :
    Set custom item template
 
@@ -67,7 +67,7 @@ The typeahead directives provide several attributes:
    _(Defaults: `uib/template/typeahead/typeahead-popup.html`)_ :
    Set custom popup template
 
-* `typeahead-wait-ms` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-wait-ms` <i class="fa fa-eye-open"></i>
    _(Defaults: 0)_ :
    Minimal wait time after last character typed before typeahead kicks-in
 
@@ -79,7 +79,7 @@ The typeahead directives provide several attributes:
    _(Defaults: true) :
    On selection, focus the input element the typeahead directive is associated with
 
-* `typeahead-is-open` <i class="glyphicon glyphicon-eye-open"></i>
+* `typeahead-is-open` <i class="fa fa-eye-open"></i>
    _(Defaults: angular.noop)_ :
    Binding to a variable that indicates if dropdown is open
 
